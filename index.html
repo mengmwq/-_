@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="keywords" content="雅诺达公司提供超过300个全球知名品牌行业服务，涵盖零售业、跨境电商、MCN、旅游、文娱、大数据等行业" />
+	<meta name="description" content="雅诺达公司提供超过300个全球知名品牌行业服务，涵盖零售业、跨境电商、MCN、旅游、文娱、大数据等行业" />
+
+
+	<title>雅诺达官网</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<meta name="full-screen" content="yes">
+
+
+
+	<meta name="author" content="mjk" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet'
+		type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="css/style.css">
+	<!-- End demo purposes only -->
+
+
+	<style>
+		/* For demo purpose only */
+
+		/* For Demo Purposes Only ( You can delete this anytime :-) */
+		#colour-variations {
+			padding: 10px;
+			-webkit-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			width: 140px;
+			position: fixed;
+			left: 0;
+			top: 100px;
+			z-index: 999999;
+			background: #fff;
+			/*border-radius: 4px;*/
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+		}
+
+		#colour-variations.sleep {
+			margin-left: -140px;
+		}
+
+		#colour-variations h3 {
+			text-align: center;
+			;
+			font-size: 11px;
+			letter-spacing: 2px;
+			text-transform: upper;
+			color: #777;
+			margin: 0 0 10px 0;
+			padding: 0;
+			;
+		}
+
+		#colour-variations ul,
+		#colour-variations ul li {
+			padding: 0;
+			margin: 0;
+		}
+
+		#colour-variations li {
+			list-style: none;
+			display: inline;
+		}
+
+		#colour-variations li a {
+			width: 20px;
+			height: 20px;
+			position: relative;
+			float: left;
+			margin: 5px;
+		}
+
+		#colour-variations li a[data-theme="style"] {
+			background: #2F3F84;
+		}
+
+		#colour-variations li a[data-theme="pink"] {
+			background: #f64662;
+		}
+
+		#colour-variations li a[data-theme="blue"] {
+			background: #2185d5;
+		}
+
+		#colour-variations li a[data-theme="turquoise"] {
+			background: #00b8a9;
+		}
+
+		#colour-variations li a[data-theme="orange"] {
+			background: #ff6600;
+		}
+
+		#colour-variations li a[data-theme="lightblue"] {
+			background: #5585b5;
+		}
+
+		#colour-variations li a[data-theme="brown"] {
+			background: #a03232;
+		}
+
+		#colour-variations li a[data-theme="green"] {
+			background: #65d269;
+		}
+
+		.option-toggle {
+			position: absolute;
+			right: 0;
+			top: 0;
+			margin-top: 5px;
+			margin-right: -30px;
+			width: 30px;
+			height: 30px;
+			background: #f64662;
+			text-align: center;
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			color: #fff;
+			cursor: pointer;
+			-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+		}
+
+		.option-toggle i {
+			top: 2px;
+			position: relative;
+		}
+
+		.option-toggle:hover,
+		.option-toggle:focus,
+		.option-toggle:active {
+			color: #fff;
+			text-decoration: none;
+			outline: none;
+		}
+	</style>
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<header role="banner" id="fh5co-header">
+		<div class="container">
+			<!-- <div class="row"> -->
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<!-- Mobile Toggle Menu Button -->
+					<a href="javascript:void(0)" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse"
+						data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					<img src="images/logo.png" alt="" class="img_logo" style="width:130px;height: 50px;" />
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="javascript:void(0)" data-nav-section="home"><span>首页</span></a></li>
+						<li><a href="javascript:void(0)" data-nav-section="about"><span>关于</span></a></li>
+						<li><a href="javascript:void(0)" data-nav-section="services"><span>服务</span></a></li>
+						<li><a href="javascript:void(0)" data-nav-section="press"><span>行业覆盖</span></a></li>
+						<!-- <li><a  href="javascript:void(0)" data-nav-section="team"><span>团队</span></a></li> -->
+						<li><a href="javascript:void(0)" data-nav-section="testimonials"><span>企业文化</span></a></li>
+						<li><a href="javascript:void(0)" data-nav-section="pricing"><span>加入我们</span></a></li>
+
+						<li><a href="javascript:void(0)" data-nav-section="features"><span>联系我们</span></a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- </div> -->
+		</div>
+	</header>
+
+	<div id="slider" data-section="home">
+		<div class="owl-carousel owl-carousel-fullwidth">
+			<!-- You may change the background color here. -->
+			<div class="item" style="background-image: url('images/lunbo1.png')">
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-md-7 col-sm-7">
+							<div class="fh5co-owl-text-wrap">
+								<div class="fh5co-owl-text">
+									<h1 class="fh5co-lead to-animate">跨境电商</h1>
+									<h3 class="fh5co-sub-lead to-animate">b2b2C多用户商业系统 ，支持全业务系统的电商系统 </h3>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
+					    	<div class="iphone to-animate-2"><img src="images/iphone-2.png" alt="jq22 Template by jq22.com"></div>
+					    </div> -->
+
+					</div>
+				</div>
+			</div>
+			<!-- You may change the background color here.  -->
+			<div class="item" style="background-image: url('images/lunbo2.png')">
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
+							<div class="fh5co-owl-text-wrap">
+								<div class="fh5co-owl-text">
+									<h1 class="fh5co-lead to-animate">MCN机构</h1>
+									<h3 class="fh5co-sub-lead to-animate">直播账号注册认证，帮助策划直播内容，提供直播培训服务，网红大V资源对接，品牌内容视频包装
+									</h3>
+									<!-- <p class="to-animate-2"><a  href="javascript:void(0)" class="btn btn-primary btn-lg">2222222</a></p> -->
+								</div>
+							</div>
+						</div>
+						<!-- <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
+					    	<div class="iphone to-animate-2"><img src="images/iphone-1.png" alt="jq22 Template by jq22.com"></div>
+					    </div> -->
+
+					</div>
+				</div>
+			</div>
+
+			<div class="item" style="background-image:url(images/lunbo3.png)">
+				<div class="overlay"></div>
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<div class="fh5co-owl-text-wrap">
+								<div class="fh5co-owl-text">
+									<h1 class="fh5co-lead to-animate">仓储一体化</h1>
+									<h3 class="fh5co-sub-lead to-animate">线上线下全托管，减少重复运输、重复操作、交叉仓储等，优化20%以上供应链环节 </h3>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="fh5co-about-us" data-section="about">
+		<div class="container">
+			<div class="row row-bottom-padded-lg" id="about-us">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">About Us</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 to-animate">
+							<h3>专业、诚信、创新的运营理念</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 to-animate">
+					<img src="images/img_1.jpg" class="img-responsive img-rounded" alt="jq22 Template">
+				</div>
+				<div class="col-md-4 to-animate">
+					<h2>海南雅诺达科技有限公司</h2>
+					<p>秉持着专业、诚信、创新的运营理念，由5年以上服务经验的运营总监带队和深耕运营行业的运营专员，灵感不断的资深策划和创意设计的团队以“满足客户需要，解决客户难点，挖掘行业痛点“为使命的精神，不断扩大服务范围、优化流程标准、增加技术创新
+					</p>
+					<p>目前经营范围包含娱乐直播、短视频内容商业化、电商及跨境电商运营、整合营销、音乐制作发行、艺人经纪等主营业务.</p>
+
+
+				</div>
+			</div>
+			<!-- <div class="row" id="team">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Team</h2>
+				</div>
+				<div class="col-md-12">
+					<div class="row row-bottom-padded-lg">
+						<div class="col-md-4 text-center to-animate">
+							<div class="person">
+								<img src="images/person2.jpg" class="img-responsive img-rounded" alt="Person">
+								<h3 class="name">John Doe</h3>
+								<div class="position">Web Developer</div>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and
+									Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
+									at the coast of the Semantics.</p>
+								<ul class="social social-circle">
+									<li><a  href="javascript:void(0)"><i class="icon-twitter"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-linkedin"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-instagram"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 text-center to-animate">
+							<div class="person">
+								<img src="images/person3.jpg" class="img-responsive img-rounded" alt="Person">
+								<h3 class="name">Rob Smith</h3>
+								<div class="position">Web Designer</div>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and
+									Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
+									at the coast of the Semantics.</p>
+								<ul class="social social-circle">
+									<li><a  href="javascript:void(0)"><i class="icon-twitter"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-linkedin"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-instagram"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-dribbble"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 text-center to-animate">
+							<div class="person">
+								<img src="images/person4.jpg" class="img-responsive img-rounded" alt="Person">
+								<h3 class="name">John Doe</h3>
+								<div class="position">Photographer</div>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and
+									Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
+									at the coast of the Semantics.</p>
+								<ul class="social social-circle">
+									<li><a  href="javascript:void(0)"><i class="icon-twitter"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-linkedin"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-instagram"></i></a></li>
+									<li><a  href="javascript:void(0)"><i class="icon-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<div id="fh5co-our-services" data-section="services">
+		<div class="container">
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Our Services</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 to-animate">
+							<h3>提供电商及跨境电商运营、MCN孵化及仓储物流一体化服务</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box to-animate">
+						<div class="icon colored-2"><span><i class="icon-screen-desktop"></i></span></div>
+						<h3>电商运营</h3>
+						<p>电商后台包括批量上新、订单追踪、销售报表等功能，客服团队高度本地化，为小语种当地提供免费客户服务，解决语言难题，每周提供选品建议及运营资讯，助您深入了解市场，精准选品，轻松打造爆款，对接国内主流ERP，高效管理商品及订单灵活定制最适合您的后台系统.
+						</p>
+					</div>
+
+
+				</div>
+				<div class="col-md-4">
+					<div class="box to-animate">
+						<div class="icon colored-4"><span><i class="icon-heart"></i></span></div>
+						<h3>MCN机构</h3>
+						<p>MCN模块拥有专业的运营团队、保证持续稳定的内容输出，主要模式有内容生产、运营、营销、电商、经纪、知识付费、IP及周边产品开发等模式。借助电商平台为MCN机构提供的成员管理、数据分析、商品供应链等功能，专注于内容产出的MCN机构成为了电商MCN中的重要参与者.
+						</p>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="box to-animate">
+						<div class="icon colored-6"><span><i class="icon-user"></i></span></div>
+						<h3>仓储一体化</h3>
+						<p>多平台多店铺库存自动同步，同步数据精准，稳定,针对库存的数量我们可以设置库存数预警，防止大促或活动时超卖现象出现,存放种多规格批量货物，高位叉车穿行于货架之间，完成存/取货操作，实现库存合理化、存取自动化，操作简便化，提升仓储利用率及工作效率.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="fh5co-press" data-section="press">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="single-animate animate-press-1">INDUSTRY COVERS</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
+							<h3>雅诺达公司提供超过300个全球知名品牌行业服务，涵盖零售业、跨境电商、MCN、旅游、文娱、大数据等行业</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img" style="background-image: url(images/img_7.jpg)">
+						</div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">美妆 <span class="fh5co-border"></span></h3>
+							<p>美妆市场以线上线下融合的模式为主，线上渠道过去5年增速高达15%，线下渠道受益于新零售模式下，其不可或缺的现场体验、优质服务、质量保障，预计未来仍将是护肤品市场的主力构成.
+							</p>
+							<p><a href="javascript:void(0)" class="btn btn-primary btn-sm">Learn more</a></p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img" style="background-image: url(images/img_8.jpg)">
+						</div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">文娱 <span class="fh5co-border"></span></h3>
+							<p>文娱行业中的新业态：短视频、网络直播与动漫、文学、影视、游戏、音乐等内容形式交叉结合，与科技、文旅、教育、电商、金融等业态深度融合，产业链和价值链不断提升.</p>
+							<p><a href="javascript:void(0)" class="btn btn-primary btn-sm">Learn more</a></p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img" style="background-image: url(images/img_9.jpg);">
+						</div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">报关 <span class="fh5co-border"></span></h3>
+							<p>跨境电商海关申报系统负责协同各业务系统，各业务方（电商企业、支付企业、物流企业、仓储企业）完成四单申报，接收海关回执驱动销售业务流程。对接各地海关、支持二级节点（海关数据分中心）和总署直连模式.
+							</p>
+							<p><a href="javascript:void(0)" class="btn btn-primary btn-sm">Learn more</a></p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img" style="background-image: url(images/img_10.jpg);">
+						</div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">旅游 <span class="fh5co-border"></span></h3>
+							<p>最先确定的是在目的地“玩什么”，之后才规划交通和住宿，这是当下在全球非常流行的出行模式，确定玩乐项目后订机票住宿，为特色活动或限时体验而启程、舍去紧凑行程、偏爱即兴冒险.</p>
+							<p><a href="javascript:void(0)" class="btn btn-primary btn-sm">Learn more</a></p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-testimonials" data-section="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">ENTERPRISE CULTURE </h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>引领商业进步，共创美好生活</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony to-animate">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;公司秉承着以客户为中心，客户需求是公司所有策略、行动的最重要的输入，帮客户解决问题，借此创造价值，公司才有存在的理由和发展的理念。&rdquo;</p>
+						</blockquote>
+						<!-- <p class="author">John Doe, CEO <a href="http://jq22.com/" target="_blank">jq22.com</a> <span
+								class="subtext">Creative Director</span></p> -->
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony to-animate">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;我们的业务需要我们持续改进、卓越服务赢得客户口碑，为适应低毛利的行业特点要求我们极致的追求流程改进及效率优化以构筑成本领先的竞争壁垒，这些都需用我们用精益求精的产品和技术提供支撑。我们所处的行业一日千里，要求我们是一个学习型组织，持续进化，也需要我们每个人持续学习成长，超越自我。&rdquo;
+							</p>
+						</blockquote>
+						<!-- <p class="author">John Doe, CEO <a href="http://jq22.com/" target="_blank">jq22.com</a> <span
+								class="subtext">Creative Director</span></p> -->
+					</div>
+
+
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony to-animate">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;我们相信有一些简单朴素的理念，吸引着和我们相似的人，共同完成一件件平凡而伟大的事情，这就是我们的价值观。&rdquo;</p>
+						</blockquote>
+						<!-- <p class="author">John Doe, Founder <a  href="javascript:void(0)">jq22.com</a> <span class="subtext">Creative
+								Director</span></p> -->
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div id="fh5co-pricing" data-section="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="single-animate animate-pricing-1">JOIN US</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext single-animate animate-pricing-2">
+							<h3>了解人才是成功领导的关键</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="price-box to-animate">
+						<h2 class="pricing-plan">报关员</h2>
+						<div class="price"><sup class="currency">￥</sup>6-10<small>/k</small></div>
+						<p>负责海关、商检的现场申报工作，负责协调、解决货物清关过程中的异常问题</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>1. 有三年工作经验，有独立海关检疫现场操作能力及一定的应变能力。</li>
+							<li>2. 有有一定的英语听说读写能力，熟悉相应的法律法规及海关检疫公告及时更新操作方式。</li>
+							<li>3. 性格开朗，为人正直，工作细心认真负责</li>
+							<li>4. 有驾照者优先</li>
+						</ul>
+						<a href="javascript:void(0)" class="btn btn-default btn-sm">Join Us</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price-box to-animate">
+						<h2 class="pricing-plan">Java </h2>
+						<div class="price"><sup class="currency">￥</sup>10-15<small>/k</small></div>
+						<p>学信网可查学历，有电商经验者优先考虑</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>1. 精通Java基础，熟练运用多种软件设计模式</li>
+							<li>2. 了解 HTML5/CSS3/Javascript，熟悉 Vue/React 框架。</li>
+							<li>3. 良好的代码习惯，良好的学习沟通能力；</li>
+							<li>4. 良好的团队合作精神，较强的项目推动能力；熟练掌握redis、linux基本命令、javascript、Nginx等相关技术等</li>
+						</ul>
+						<a href="javascript:void(0)" class="btn btn-default btn-sm">Join Us</a>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+				<div class="col-md-3 col-sm-6 to-animate">
+					<div class="price-box popular">
+						<div class="popular-text">Emergency </div>
+						<h2 class="pricing-plan">前端开发工程师</h2>
+						<div class="price"><sup class="currency">￥</sup>14-20<small>/k</small></div>
+						<p>维护现有项目,负责移动端、PC端项目开发</p>
+						<hr>
+						<ul class="pricing-info">
+
+
+							<li>1. 熟练使用bootstrap、vue、layUI、react等主流框架</li>
+							<li>2. 对各种Web前端技术（html、JavaScript、css、Ajax、跨浏览器等）有深刻理解</li>
+							<li>3. 善于沟通、责任心强，具有良好的团队合作精神</li>
+							<li>4. 具有移动开发经验，java、PHP等开发经验者优先</li>
+						</ul>
+						<a href="javascript:void(0)" class="btn btn-primary btn-sm">Join Us</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price-box to-animate">
+						<h2 class="pricing-plan">会计</h2>
+						<div class="price"><sup class="currency">￥</sup>6-10<small>/K</small></div>
+						<p>负责各类会计报的编制和汇总，负责每月国地税的纳税申报。</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>1. 财会类专业本科以上学历，总账会计3年以上工作经验，中级以上职称优先</li>
+							<li>2. 精通财务管理专业及相关专业知识</li>
+							<li>3. 熟练使用ERP、金蝶、用友财务软件</li>
+							<li>4. 学习能力、适应能力；具备良好的逻辑思维能力、判断与决策能力、人际能力、沟通能力、计划与执行能力</li>
+						</ul>
+						<a href="javascript:void(0)" class="btn btn-default btn-sm">Join Us</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-features" data-section="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="single-animate animate-features-1">FGet In Touch With Us</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 single-animate animate-features-2">
+							<h3>如果您有任何问题或商务合作请通过以下方式和我们联络</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row section-content m-t-60-sm-min">
+				<div class="col-sm-6 col-md-5">
+					<div class="col-inner">
+						<div class="icon-box _left">
+							<div class="icon-box-media">
+								<img src="images/mobile.png" alt="" data-sr="bottom">
+							</div>
+							<div class="icon-box-heading">
+								<h4>Phone Number</h4>
+							</div>
+							<div class="icon-box-content font-sub font-italic">
+								<span>(+0898) 65333580</span>
+								<br>
+								<!-- <span>(00) 123-4567890 (tel-2)</span> -->
+							</div>
+						</div>
+
+						<div class="icon-box _left">
+							<div class="icon-box-media">
+								<img src="images/mail.png" alt="" data-sr="bottom">
+							</div>
+							<div class="icon-box-heading">
+								<h4>Email Address</h4>
+							</div>
+							<div class="icon-box-content font-sub font-italic">
+								<span>dano.ya@goyanoda.com</span>
+								<br>
+								<!-- <span>email_2@example.com</span> -->
+							</div>
+						</div>
+
+						<div class="icon-box _left">
+							<div class="icon-box-media">
+								<img src="images/pin.png" alt="" data-sr="bottom">
+							</div>
+							<div class="icon-box-heading">
+								<h4>Business address</h4>
+							</div>
+							<div class="icon-box-content font-sub font-italic">
+								<span>海南省海口市美兰区国兴大道3号</span>
+								<br>
+								<span>互联网金融大厦B栋9层905室</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-offset-1 m-t-60-xs-max">
+					<div class="col-inner">
+						<form class="_default" id="contactForm" novalidate>
+							<div class="form-group required">
+								<label class="form-label" for="contactName">Your name</label>
+								<input class="form-control" id="contactName" type="text" name="name">
+							</div>
+							<div class="form-group required">
+								<label class="form-label" for="contactEmail">Email address</label>
+								<input class="form-control" id="contactEmail" type="text" name="email">
+							</div>
+							<div class="form-group required">
+								<label class="form-label" for="contactMessage">Message</label>
+								<textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
+							</div>
+							<div class="btn-wrap">
+								<button type="submit" class="btn btn-primary btn-block">Send Message</button>
+							</div>
+							<div class="form-notify"></div>
+						</form> <!-- #contactForm -->
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="footer-area pt-100 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-footer-widget">
+						<div class="logo">
+							<h2>
+								<a href="index.html" style="color:#fff">YANODA</a>
+							</h2>
+						</div>
+						<p>LProfessional, service and innovative operation concept.</p>
+
+					</div>
+				</div>
+
+
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-footer-widget pl-5">
+						<h3>服务</h3>
+
+						<ul class="quick-links">
+							<li><a href="javascript:void(0)">MCN孵化</a></li>
+							<li><a href="javascript:void(0)">微信公众号开发</a></li>
+							<li><a href="javascript:void(0)">微信小程序开发</a></li>
+							<li><a href="javascript:void(0)">H5响应式 交互网站</a></li>
+							<li><a href="javascript:void(0)">App软件开发</a></li>
+							<li><a href="javascript:void(0)">行业解决方案</a></li>
+							<li><a href="javascript:void(0)">跨境报关</a></li>
+							<li><a href="javascript:void(0)">O2O购物商城系统</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-footer-widget pl-5">
+						<h3>案例</h3>
+
+						<ul class="quick-links">
+							<li><a href="case.html">微信微站</a></li>
+							<li><a href="case.html">平台电商</a></li>
+							<li><a href="case.html">HTML5</a></li>
+							<li><a href="case.html">企业网站</a></li>
+							<li><a href="case.html">小程序</a></li>
+							<li><a href="case.html">移动app</a></li>
+							<li><a href="case.html">商城系统</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-footer-widget">
+						<h3>加入我们</h3>
+
+						<ul class="footer-contact-info">
+							<li>
+								<i class='bx bxs-phone'></i>
+								<span>Phone</span>
+								<a href="tel:65333580">(+0898) 65333580</a>
+							</li>
+							<li>
+								<i class='bx bx-envelope'></i>
+								<span>Email</span>
+								<a href="mailto:dano.ya@goyanoda.com">dano.ya@goyanoda.com</a>
+							</li>
+							<li>
+								<i class='bx bx-map'></i>
+								<span>Address</span>
+								<a target="_blank">海南省海口市美兰区国兴大道3号互联网金融大厦B栋9层905室</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	<!-- <div id="colour-variations">
+		<a class="option-toggle"><i class="icon-gear"></i></a>
+		<h3>Preset Colors</h3>
+		<ul>
+			<li><a href="javascript: void(0);" data-theme="style"></a></li>
+			<li><a href="javascript: void(0);" data-theme="pink"></a></li>
+			<li><a href="javascript: void(0);" data-theme="blue"></a></li>
+			<li><a href="javascript: void(0);" data-theme="turquoise"></a></li>
+			<li><a href="javascript: void(0);" data-theme="orange"></a></li>
+			<li><a href="javascript: void(0);" data-theme="lightblue"></a></li>
+			<li><a href="javascript: void(0);" data-theme="brown"></a></li>
+			<li><a href="javascript: void(0);" data-theme="green"></a></li>
+		</ul>
+	</div> -->
+	<!-- End demo purposes only -->
+
+
+	<!-- jQuery -->
+	<script src="js/jquery-1.11.0.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="js/jquery.style.switcher.js"></script>
+	<script>
+		$(function () {
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+					expires: 30,
+					isManagingLoad: true
+				}
+			});
+			$('.option-toggle').click(function () {
+				$('#colour-variations').toggleClass('sleep');
+			});
+		});
+	</script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
